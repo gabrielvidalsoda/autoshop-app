@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Ambiente
+.env
+!.env.example
+
+# Artefatos de pipeline
+sbom*.json
+*.zip
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
